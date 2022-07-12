@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Contact Form</title>
+  </head>
+  <div id="main">
+  <body>
+    <div id="app" class="app">
+    <form name="myform" class="form">
+      <h1 id="header">Zakiyyah's Photography Studio</h1>
+      <img id="image" alt="camera" src="camera2.png">
+      <h1> Contact Form</h1>
+      <h3>Please fill in your information and we will follow-up on your booking soon!</h3>
+
+      <label for="name"> Name:*</label>
+      <input required type="text" id="name" name="name" pattern="[^0-9]*"><br>
+
+      <label for="email">Email:*</label>
+      <input required type="email" id="email" name="email"> <br>
+
+      <label for="date">Today's Date:</label>
+<input required type="date" id="date" name="date"><br>
+
+      <label for="phone">Phone Number:*</label>
+      <input required type="tel" id="phone" name="phone"><br>
+      <label for="subject">Select a Service:</label>
+
+<select name="subject" id="subject">
+  <option value="studio">Studio Session</option>
+  <option value="location">On-Location Session</option>
+  <option value="graduation">Graduation Session</option>
+  <option value="other">Other</option>
+</select> <br>
+
+      <label for="message">Message:*</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" placeholder="What's your vision for your session?"></textarea>
+
+      <p>How did you hear about us?:</p>
+  <input type="radio" id="google" name="refer" value="google">
+  <label for="google">Google</label><br>
+  <input type="radio" id="instagram" name="refer" value="instagram">
+  <label for="instagram">Instagram </label><br>
+  <input type="radio" id="j" name="refer" value="twitter">
+  <label for="twitter">Twitter</label><br>
+<input type="radio" id="friend" name="refer" value="friend">
+  <label for="friend">Friend</label><br>
+<input type="radio" id="other" name="refer" value="other">
+  <label for="other">Other</label><br>
+
+      <label for="captcha">Verification:*</label>
+      <input required type="checkbox" id="checkbox" name="captcha" value="captcha">
+      <label for="captcha">I am not a robot.</label>
+      <p>*required field</p>
+      <input type="submit" value="submit" name="submit">
+    </form>
+  </div>
+    <div id="finished1"></div>
+    <p id="finished2"></p>
+    <p id="finished3"></p>
+    <p id="finished4"></p>
+    <p id="finished5"></p>
+    <p id="finished6"></p>
+    <p id="finished7"></p>
+    <p id="finished8"></p>
+    <p id="finished9"></p>
+    <p id="finished10"></p>
+    <p id="finished11"></p>
+    <p id="finished12"></p>
+    <script type="module" src="/main.js"></script>
+  </body>
+</div>
+</html>
